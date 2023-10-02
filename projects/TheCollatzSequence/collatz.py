@@ -10,5 +10,11 @@ def collatz(number):
             number = (number * 3) + 1
             print(number)
 
-number = int(input("Enter a number: "))
+
+# User should input a number
+try: 
+    number = int(input("Enter a number: "))
+except ValueError:
+    print("Invalid input. Please enter a valid number.")
+
 collatz(number)
