@@ -1,5 +1,15 @@
-#https://github.com/Garrowni/AutomateTheBoringStuff/issues/3
-
+##########################################################
+# Comma Code
+# create a function 
+# take list value as an argument
+# return a string 
+# the string should be separated by comma and space AND 
+# inserted before the last item.
+#
+# Example:
+# spam = ['apples', 'bananas', 'tofu', 'cats']
+# this should return 'apples, bananas, tofu, and cats'
+##########################################################
 spam = ["cat", "dog"]
 
 #take in a list
