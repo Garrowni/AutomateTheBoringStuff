@@ -1,3 +1,13 @@
+#################################
+# create a function collatz()
+# input parameter is number
+# if number is even 
+#       print number // 2
+#       return number // 2
+# if number is odd
+#       print 3 * number + 1
+#       return 3 * number + 1
+##################################
 def collatz(number):
     while(number != 1):
         #if even
